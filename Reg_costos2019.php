@@ -55,7 +55,7 @@ function MM_swapImage() { //v3.0
                   <!--<p><img src= width="730" height="200" /></p>-->
                 <div id="cont_home_tx">
                                 
-                  <img src="img/costos_2019-1.jpg" width="700" height="447"/>
+                  <img src="img/costos_2020-1.jpg" width="700" height="297"/>
                   <p><br />
 </p>
 					

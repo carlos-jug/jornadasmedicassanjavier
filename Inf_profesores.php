@@ -50,207 +50,26 @@ function MM_swapImage() { //v3.0
             <div id="tx_cont_nav"><a href="Index.php">Inicio</a> / Información general / Profesores</div>
             
         
-                  <!--<p><img src="img/Profes_construccion copy.jpg" width="730" height="200" /></p>-->
+                  <img src="img/Profes_construccion copy.jpg" width="730" height="200" />
     
        
-  </div><p class="tx_subtt">PROFESORES </p>
+  </div>
+  <p class="tx_subtt">&nbsp;</p>
   <div id="cont_home_tx">
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/UNam_lg.jpg"/></div>
-    <p><strong>Dr. Alexander Pedroza González</strong><br />
-    <em>Médico invstigacdor de UNAM, Ciudad de México.</em></p>
-  </div>
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/HSJ_lg.jpg"/></div>
-    <p><strong>Enf. Alma Rosa Espinoza Antonio</strong><br />
-    <em>Enfermería  asignada en la Unidad de Oncología, Hospital San Javier, Guadalajara, Jal.</em></p>
-  </div>
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/HSJ_lg.jpg"/></div>
-    <p><strong>Enf. Ana Luisa Rosas Pérez</strong><br />
-      Jefatura de enfermería en la Unidad de Oncología, Hospital San Javier, Guadalajara, Jal.</p>
-  </div>
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/ABC_lg.jpg"/></div>
-    <p><strong>Dr. Antonio Maffuz Aziz</strong><br />
-    Cirujano Oncologo Médico adscrito del Centro Médico ABC, Ciudad de México.</p>
-  </div>
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/IPN_lg.jpg"/></div>
-                  
-    <p><strong>Dr. Augusto Figueroa Campos</strong><br />
-    Médico Investigador de la  UNAM/IPN, Ciudad de México.</p>
-  </div>
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/fatima_espana.jpg"/></div>
-    <p><strong>Dr. Diego Lucas Kaen</strong><br />
-      <em>Jefe del Servicio de Oncología, El hospital Escuela y de Clínicas “Virgen María de Fátima”, Médico Adscrito, Federación de Sociedades Latinoamericanas de Cancerología, La Rioja, España.</em></p>
-  </div>
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/ANGELES_lg.jpg"/></div>
-    <p><strong>Dr. Edgar Mauricio Calderón Meza</strong> <br/>
-      <em> Médico Hematologo adcrito al Hospital Ángeles, Ciudad de México.</em></p>
-  </div>
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-    <p><strong>Dr. Feliciano Barrón Barrón </strong><br />
-    <em>Médico Oncólogo adscrito a la Clínica de Pulmón, INCAN, Ciudad de México.</em></p>
-              
-  </div>
-  <div id="lg_mod_h">
-    <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-    <p><strong>Dr. Francisco Javier Ochoa Carrillo</strong><br />
-    <em>Cirujano Oncologo,  Subdirector de Cirugía del Instituto Nacional de Cancerología, INCAN, Ciudad de México.</em>  </p>
-  </div>
-   <div id="lg_mod_h">
-  <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-    <p><strong>Dr. Germán Calderillo Ruiz</strong><br />
-<em>Oncólogo Médico del Instituto Nacional de Cancerología (INCAN), Ciudad de México.</em>  </p>
-  </div>
-  
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/HSJ_lg.jpg"/></div>
-  <p><strong>Dr. Gilberto Morgan Villela</strong><br />
-<em>Jefe de la Unidad de Oncología, Hospital San Javier, Guadalajara, Jal.</em></p>
-  </div>
-  
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/BAYLOR_lg.jpg"/></div>
-  <p><strong>Gustavo A. Rivero, M.D.</strong><br />
-Medicine-Hematology &amp; Oncology, Baylor St. Luke’s Medical Center, Houston, Tx., USA.</p>
-</div>
-
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/IMSS_lg.jpg"/></div>
-  <p><strong>Dr. Horacio Astudillo de la Vega</strong><br />
-<em>MN, SXXI, IMSS, / Nano Pharmacia, Ciudad de México.</em></p></div>
-
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/ANGELES_lg.jpg"/></div>
-  <p><strong>Dra. Itzel Vela Sarmiento</strong><br />
-<em></em>Cirugía Oncológica Adultos,  Hospital Ángeles, Ciudad de México.</p>
-</div>
-
-
-
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/UNam_lg.jpg"/></div>
-  <p><strong>Lic. Ivonne Alférez Mancera</strong><br />
-<em>EEQ, ENEO-UNAM, EASE, Ciudad de México</em>.</p></div>
-  
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/HSJ_lg.jpg"/></div>
-  <p><strong>Dr. Jorge Jiménez Torner</strong><br />
-<em>Especialista en anestesiología y Mediicna del Dolor  Clínica del Dolor y Paliativos, Hospital San Javier, Guadalajara, Jal. </em></p></div>
-
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-  <p><strong>Dr. José Luis Aguilar Ponce</strong><br />
-<em>Oncologo médico INCA, A1:C38N, Ciudad de México.</em></p></div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/medica_sur_lg.jpg"/></div>
-  <p><strong>Dra. Lucía Edith Flores García</strong><br />
-<em></em>Oncología Clínica,  Hospital Médica Sur Lomas, Ciudad de México<em>.</em></p>
-</div>
-
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/coi_lg.jpg"/></div>
-  <p><strong>Dr. Manuel Ernesto Magallanes Maciel</strong><br />
-<em>Director del Centro Oncológico Internacional, Ciudad de México.</em></p></div>
-
-
-
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/ROFFO_lg.jpg"/></div>
-  <p><strong>Dr. Manuel Ruiz Borrego</strong><br />
-<em></em>Oncología Clínica<em>. Instituto de Oncología Ángel H. Roffo, Buenos Aires, Argentina.</em></p>
-</div>
-
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-  <p><strong>Dra. María de Los Dolores Gallardo Rincón</strong><br />
-<em></em>Adscrita al Departamento de Oncología Médica y miembro de la Clínica de<br />
-Ovario del Instituto Nacional de Cancerología INCAN, Ciudad de México.</p>
-</div>
-
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-  <p><strong>Dr. Miguel Angel Álvarez Avitia</strong><br />
-<em></em>Médico Oncologo INCAN, Ciudad de México.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/HSJ_lg.jpg"/></div>
-  <p><strong>Dra. Monserrat Gutiérrez Mota</strong><br />
-<em></em>Médico adscrito de la Unidad de Oncología, Hospital San Javier, Guadalajara, Jal.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-  <p><strong>Dr. Eleazar Omar Macedo Pérez</strong><br />
-<em></em>Médico Oncólogo adscrito a la Unidad Funcional de Oncología Torácica INCAN, Ciudad de México.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-  <p><strong>Dr. Oscar Gerardo Arrieta Rodríguez</strong><br />
-<em></em>Coordinador de la Clínica de Cáncer de Pulmón y Tumores Torácicos y Jefe del<br />
-Laboratorio de Oncología Experimental del Instituto Nacional de Cancerología de México, INCAN, Ciudad de México.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/IMSS_lg.jpg"/></div>
-  <p><strong>Dra. Paula Torres Camacho</strong><br />
-<em></em>Especialista en dermatología, CMN, SXXI, IMSS, Ciudad de México.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/IMSS_lg.jpg"/></div>
-  <p><strong>Mtro. Raúl Vargas Céspedes</strong><br />
-<em></em>Especialista en daño a la piel relacionado con adhesivos de uso sanitario,  Ciudad de México.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/BAYLOR_lg.jpg"/></div>
-  <p><strong>Raymon Grogan, M.D., MS, FACS</strong><br />
-<em></em>Section Chief, Endocrine Surgery; Baylor St. Luke’s Medical Center, Houston, Tx., USA.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/civil_lg.jpg"/></div>
-  <p><strong>Enf. Rosa Flores Saavedra</strong><br />
-<em></em>Hospital Civil Juan I. Menchaca Guadalajara, Jal.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/ABC_lg.jpg"/></div>
-  <p><strong>Dr. Samuel Rivera Rivera</strong><br />
-<em></em>CMNS XXI IMSS/ Centro Oncológico ABC, Ciudad de México.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/12ct_lg.jpg"/></div>
-  <p><strong>Dr. Santiago Ponce Aix</strong><br />
-<em></em>Centro Nacional de Investigaciones Oncológicas (CNIO), Onco Sur, Hospital 12 de octubre, Madrid, España.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/INC_lg.jpg"/></div>
-  <p><strong>Dr. Sevastián Medina-Ornelas</strong><br />
-<em></em>Médico Radioncologo, INCAN, Ciudad de México.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/BAYLOR_lg.jpg"/></div>
-  <p><strong>Shawn Groth, M.D.</strong><br />
-<em></em>Assistant Professor of Surgery, Baylor St. Luke’s Medical Center, Houston, Tx., USA.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/IPN_lg.jpg"/></div>
-  <p><strong>Lic. Verónica Socorro González RuizVelazco</strong><br />
-<em></em>Docente expecialista en IPN, Guadalajara Jal.</p>
-</div>
-<div id="lg_mod_h">
-  <div id="lg_h"><img src="img/ABC_lg.jpg"/></div>
-  <p><strong>Dra.Yasmín Carolina Blanco Vazquez</strong><br />
-<em></em>Médico Oncologo, Clínica de Oncología del Hospital ABC, Ciudad de México.</p>
-</div>
-</div>
-
+	  
+ <!-- <div id="lg_mod_h">
+	   <div id="lg_h"><img src="img/hm_argentina_lg.jpg"/></div>
+    <p><strong>Dr. Adrián Agustín Nervo</strong>.<br />
+    <em>Instituto Oncológico Henry Moore, Ciudad Autónoma de Buenos Aires, Argentina.</em></p>
+  </div>-->
+	  
+	</div>
+	
                
                   
       
                 <p>&nbsp;</p>
-    </div>
+  </div>
     	<?php include("includes/banner_sj.html");?>
 
 

@@ -51,12 +51,12 @@ function MM_swapImage() { //v3.0
         	<div id="tt_cont">Patrocinadores</div>
             <div id="tx_cont_nav"><a href="Index.php">Inicio</a> / Patrocinadores</div>
         </div>
-        
-                  <!--<p><img src= width="730" height="200" /></p>-->
+    	    	<br/><br/>
                 <div id="cont_home_tx">
-					 <p><a href="CHOQUIS AREA COMERCIAL.pdf"target="_blank"><img src="img/croquis area comercial.jpg" width="730" height="200" /></a></p>
-                                
-<img src="img/patrocinio/Bayer.jpg" width="400" height="200" /><br/><br/>
+					<p>
+  <!-- <p><a href="CHOQUIS AREA COMERCIAL.pdf"target="_blank"><img src="img/croquis area comercial.jpg" width="730" height="200" /></a></p>-->
+					  
+  <!--<img src="img/patrocinio/Bayer.jpg" width="400" height="200" /><br/><br/>
 					<img src="img/patrocinio/msd.jpg" width="400" height="200" /><br/>
                   <br/>
                   <img src="img/patrocinio/pfizer.jpg"height="200" /><br/><br/>
@@ -73,12 +73,55 @@ function MM_swapImage() { //v3.0
 					<img src="img/logos/pat_3m.jpg"width="400" height="200" /><br/><br/>
 					<img src="img/logos/pat_laroche.jpg"width="400" height="200" /><br/><br/>
 					<img src="img/logos/KHIRO.jpg"width="400" height="200" /><br/><br/>
-					¿Te interesa participar como parte de nuestros patrocinadores?</p>
-    <p><span class="tx_subtt">INFORMACIÓN:</span><br/><br/>
-      <strong>Lic. Elvia Castañeda </strong><br/>
-      Enseñanza <br/>3669 02 22 ext. 7150 <br/>
-      <a href="mailto:ecastaneda@hospitalsanjavier.com" target="_blank">ecastaneda@hospitalsanjavier.com                 </a>
-                  <p><br />
+					<img src="img/ACCORD.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/AVANOS.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/PROBIOMED.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/SMI.jpg"="400" height="200" /><br/><br/>
+					<img src="img/VARLIX.jpg"=width="400" height="200" /><br/><br/>
+					<img src="img/B BRAUN.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/BRACCO.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/aspen.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/biogentec.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/bristol.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/eisai.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/grunethal.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/imo.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/philips.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/pisa.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/safe.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/degasa.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/demsa.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/gdlmedica.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/kevinn.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/marzam.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/medtronic.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/procomsa.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/ryu.jpg"width="400" height="200" /><br/><br/>
+					<img src="img/FARM_ESPECIALIZADA.jpg"width="400" height="200" /><br/><br/>
+						<img src= "img/B BRAUN.jpg""width="400" height="200" /><br/><br/>
+					<img src="img/OCTAPHARMA.jpg""width="400" height="200" /><br/><br/>-->				  </p>
+					<img src="img/patrocinio/Bayer.jpg" width="400" height="200" /><br/><br/>
+					<img src="img/patrocinio/roche.jpg" width="400" height="200" /><br/><br/>
+					<img src="img/patrocinio/msd.jpg" width="400" height="200" /><br/><br/>
+					<img src="img/patrocinio/pfizer.jpg"height="200" /><br/><br/>
+					<img src="img/patrocinio/aspen.jpg" width="400" height="200" /><br/><br/>
+					<img src="img/patrocinio/astrazeneca.jpg" width="400" height="200" /><br/><br/>
+					<img src="../img/patrocinio/philips.jpg" width="400" height="200" /><br/><br/>
+					<img src="../img/patrocinio/3m.jpg" width="400" height="200" /><br/><br/>
+					<img src="../img/patrocinio/laroche_logo..jpg" width="400" height="200" /><br/><br/>
+					<img src="../img/patrocinio/grupo farmacos.jpg" width="400" height="200" /><br/><br/>
+					<img src="../img/patrocinio/elekta.jpg" width="400" height="200" /><br/><br/>
+					<img src="../img/bristol.jpg" width="400" height="200" /><br/><br/>
+					<img src="img/patrocinio/Baxter.png" width="400" height="200" /><br/><br/>
+					<p>&nbsp;</p>
+					<p>¿Te interesa participar como parte de nuestros patrocinadores?
+					</p>
+				    </p>
+				  <p><span class="tx_subtt">INFORMACIÓN:</span><br/><br/>
+				    <strong>Lic. Elvia Castañeda </strong><br/>
+				    Enseñanza <br/>3669 02 22 ext. 7150 <br/>
+				    <a href="mailto:ecastaneda@hospitalsanjavier.com" target="_blank">ecastaneda@hospitalsanjavier.com                 </a>
+				  <p><br />
 </p>
 					
 					

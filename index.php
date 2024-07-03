@@ -56,27 +56,33 @@ function MM_swapImage() { //v3.0
 <div id="body_2">
 	<div id="cont_body_left">
     	    	<div id="li_cont">
-        	<div id="tt_cont">Mensaje de Bienvenida</div>
+        	<div id="tt_cont">MENSAJE DE BIENVENIDA</div>
             <div id="tx_cont_nav"><a href="./">Inicio</a> / Jornadas de Aniversario Hospital San Javier</div>
         </div>
                 <div id="cont_home_tx">
-                  <p>Respetables médicos, la primera piedra de Hospital San Javier representa la piedra angular de la atención hospitalaria&nbsp;del occidente del país, creando una frontera en el tiempo en el que, la calidad el compromiso profesional, la modernización tecnológica, la investigación y el desarrollo aplicados en el bienestar de nuestros pacientes han establecido su relevancia histórica.</p>
-                  <p><br />
-                  Con satisfacción y orgullo le invitamos a nuestras Jornadas de Aniversario que, a 24 años de experiencia, propone y define alternativas de elevado compromiso social -<em>lex artis y buena praxis-&nbsp;</em>de la medicina cuyo estándar ha definido la demanda del nuevo siglo.</p>
-                  <p><br />
-                    Esperamos que el resultado de este encuentro académico reviva nuestra capacidad de asombro y estimule nuestra doctrina de servicio en la vasta y compleja red de información disponible en la atención para la salud.<br />
-                  Les esperamos los días 29, 30 de noviembre y 1 de diciembre de 2018, en el Hotel Fiesta Americana Guadalajara para continuar con entusiasmo la tarea de ayudar con humanismo ahí donde la Intervención médica sea necesaria.</p>
-<p>Atentamente,</p>
-                  <p><br />
-                    <strong>Comité Organizador.</strong></p>
+                  <p>Respetables  médicos, la primera piedra de Hospital San Javier representa la piedra angular  de la atención hospitalaria del occidente del país, creando una frontera en el  tiempo en el que, la calidad el compromiso profesional, la modernización  tecnológica, la&nbsp;investigación y el desarrollo aplicados en el bienestar de  nuestros pacientes han establecido su relevancia histórica.<br />
+                    <br />
+Con satisfacción y orgullo le informamos que retomaremos nuestra tradición  académica, pausada por este periodo de confinamiento, apegándonos a todos los  protocolos de prevención le invitamos a nuestras Jornadas Médicas que, a 27  años de experiencia, propone y define alternativas de elevado compromiso social  -<em>lex  artis y buena praxis-&nbsp;</em>de la medicina cuyo estándar ha definido  la demanda del&nbsp;nuevo siglo.<br />
+<br />
+Esperamos que el resultado de este encuentro académico reviva nuestra capacidad  de asombro y estimule nuestra doctrina de servicio en la vasta y compleja red  de información disponible en la atención para la salud.</p>
+<br />
+Les esperamos el <strong>24 de septiembre de 2022</strong> en el Hotel Fiesta Americana  Guadalajara para continuar con entusiasmo la tarea de ayudar con humanismo ahí  donde la intervención médica sea necesaria.<br />
+<p><br />
+                  Atentamente,</p>
+<p><br />
+                  <strong>Comité Organizador.</strong></p>
           <div id="firma_cont">
             <div id="firma_tx"><strong> Dr. Juan José Salazar del Valle</strong><br/> 
             Jefatura de Capacitación, Enseñanza e Investigación GESJ</div>
-            <div id="firma_tx"><strong> Dr. Gilberto Morgan Villela</strong><br/> 
-            Responsable de la Unidad de Oncología Hospital San Javier</div>
-                        <div id="firma_tx"><strong> Dr. Oscar Armando Melhado Orellana</strong><br/>
-                        Cirujano Oncólogo, Unidad de Oncología, Hospital San Javier</div>
+            <div id="firma_tx"><strong> Dr. Gilberto Morgan Villela</strong><br/>
+            Director de Oncología al Límite, Oncólogo Clínico Hospital San Javier</div>
+                        
+            <div id="firma_tx"><strong>Dr. Jorge Jiménez Tornero</strong><br/>
+		      Director de Clinica de Dolor y Paliativos del Hospital San Javier</div>
+			  <div id="firma_tx"><strong>Enf. Esp. Ana Luisa Rosas Pérez</strong><br/>
+	        Jefe de Enfermería de la Unidad de Oncología del Hospital San Javier</div>
           </div>
+					
           
                   <p >&nbsp;</p>
                   <p >&nbsp;</p>

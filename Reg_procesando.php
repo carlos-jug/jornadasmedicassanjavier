@@ -101,9 +101,34 @@
 						$url="https://www.paypal.com/cgi-bin/webscr"; //production
 						//$url="https://www.sandbox.paypal.com/cgi-bin/webscr"; //develop
 						?>
-						<form action="<?=$url;?>" method="post" name="paypal" id="paypal"> 
+						
+							<br /><br />
+							<h2 class="text-center">Deposito o transferencia bancaria</h2>
+							<table class="table table-hover table-striped">
+								<tr>
+									<th>Nombre:</th><td>Hospital San Javier</td>
+								</tr>
+								<tr>
+									<th>Institución:</th><td>Banco Mercantil del Norte, S.A.</td>
+								</tr>
+								<tr>
+									<th>Cuenta:</th><td>0431660909</td>
+								</tr>
+								<tr>
+									<th>Clabe:</th><td>072320004316609090</td>
+								</tr>
+								<tr>
+									<th>Sucursal:</th><td>1559 Yaquis</td>
+								</tr>
+								<tr>
+									<th>Plaza:</th><td>Guadalajara</td>
+								</tr>
+							</table>
+							<h6 class="text-center"><strong>Enviar comprobante de pago al correo: contacto@jornadasmedicassanjavier.com</strong></h6>
+						
+						<!-- <form action="<?=$url;?>" method="post" name="paypal" id="paypal"> 
 							<input type="hidden" name="business" value="franciscocuellarhdz@gmail.com">
-							<!-- <input type="hidden" name="business" value="jug320@gmail.com"> -->
+							<!-- <input type="hidden" name="business" value="jug320@gmail.com"> -- >
 							<input type="hidden" name="cmd" value="_cart">
 							<input type="hidden" name="charset" value="utf-8">
 							<input type="hidden" name="item_number_1" value="1">
@@ -119,8 +144,8 @@
 							<input type="hidden" name="upload" value="1">
 							<input type="hidden" name="return" value="http://jornadasmedicassanjavier.com/Reg_completo.php?idInscripcion=<?=$last_id?>&email=<?=$_POST["email"]?>">
 							<input type="hidden" name="cancel_return" value="http://jornadasmedicassanjavier.com/Reg_declinada.php?idInscripcion=<?=$last_id?>&email=<?=$_POST["email"]?>">
-							<!-- <input type="submit" name="Comprar" /> -->
-						</form>
+							<!-- <input type="submit" name="Comprar" /> -- >
+						</form> -->
 					<?php
 					}else{
 					    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
@@ -136,9 +161,9 @@
 			.btn-green{background:#106941;border-color:#106941;color:#FFFFFF;}
 		</style>
 		<script>
-			$(document).ready(function(){
+			/*$(document).ready(function(){
 				$('#paypal').submit();
-			});
+			});*/
 		</script>
 	</body>
 </html>

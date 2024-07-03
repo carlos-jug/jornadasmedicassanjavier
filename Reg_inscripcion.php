@@ -157,19 +157,9 @@
 								<label for="evento">Evento <span class="red">*</span></label>
 								<select class="form-control evento" required="required" id="evento" name="evento">
 									<option value="">Elegir</option>
-									<option value="Actualidades en Enfermedades Infecciosas">Actualidades en Enfermedades Infecciosas</option>
-									<option disabled="disabled" value="Enfermería Oncológica">Enfermería Oncológica</option>
-									<option value="Neurocirugía">Neurocirugía</option>
+									<option value="Oncología al limite VII">Oncología al limite VII</option>
+									<option value="Enfermería Oncológica">Enfermería Oncológica</option>
 									<option value="Dolor y Paliativos en Oncología">Dolor y Paliativos en Oncología</option>
-									<option value="Oncología al limite VI">Oncología al limite VI</option>
-									<option value="Práctica Integrada en Falla Intestinal">Práctica Integrada en Falla Intestinal</option>
-									<!-- <optgroup label="Doctores / Doctoras">
-										<option value="Curso talle de inmunoterapia en cáncer">Curso talle de inmunoterapia en cáncer</option>
-										<option value="Oncología al límite Conferencias">Oncología al límite Conferencias</option>
-									</optgroup>
-									<optgroup label="Enfermeros / Enfermeras">
-										<option value="Taller de Enfermeria Oncológia">Taller de Enfermeria Oncológia</option>
-									</optgroup> -->
 								</select>
 							</div>
 						</div>
@@ -210,7 +200,7 @@
 							</div>
 						</div>						
 					</div>
-					<button type="submit" class="btn btn-green">Pagar con PayPal</button>
+					<button type="submit" class="btn btn-green">Pagar</button>
 				</form>
 			</div>
 			<?php include("includes/banner_sj.html");?>
@@ -228,67 +218,23 @@
 					const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 					const d = new Date();
 					var mes=monthNames[d.getMonth()];
-					if(evento=="Curso talle de inmunoterapia en cáncer"){
-						if(mes=="Octubre"){
-							$("#precio").val("$1,000.00");
-						}else if(mes=="Noviembre"){
-							$("#precio").val("$1,500.00");
-						}
-					}else if(evento=="Oncología al límite Conferencias"){
-						if(mes=="Octubre"){
-							$("#precio").val("$1,500.00");
-						}else if(mes=="Noviembre"){
-							$("#precio").val("$2,000.00");
-						}
-					}else if(evento=="Taller de Enfermeria Oncológia"){
-						if(mes=="Octubre"){
-							$("#precio").val("$500.00");
-						}else if(mes=="Noviembre"){
-							$("#precio").val("$1,000.00");
-						}
-					}else if(evento=="Actualidades en Enfermedades Infecciosas"){
-                        if(mes=="Octubre"){
+                    if(evento=="Oncología al limite VII"){
+                        if(mes=="Enero" || mes=="Febrero" || mes=="Marzo" || mes=="Abril" || mes=="MAyo" || mes=="Junio" || mes=="Julio" || mes=="Agosto" || mes=="Septiembre" || mes=="Octubre"){
                             $("#precio").val("$2,500.00");
-                        }else if(mes=="Noviembre"){
+                        }else if(mes=="Noviembre" || mes=="Diciembre"){
                             $("#precio").val("$3,000.00");
                         }
-                    }else if(evento=="Enfermería Oncológica"){
-                        if(mes=="Octubre"){
+					}else if(evento=="Enfermería Oncológica"){
+                        if(mes=="Enero" || mes=="Febrero" || mes=="Marzo" || mes=="Abril" || mes=="MAyo" || mes=="Junio" || mes=="Julio" || mes=="Agosto" || mes=="Septiembre" || mes=="Octubre"){
                             $("#precio").val("$700.00");
-                        }else if(mes=="Noviembre"){
+                        }else if(mes=="Noviembre" || mes=="Diciembre"){
                             $("#precio").val("$750.00");
                         }
-                    }else if(evento=="Neurocirugía"){
-                        if(mes=="Octubre"){
-                            $("#precio").val("$2,500.00");
-                        }else if(mes=="Noviembre"){
-                            $("#precio").val("$3,000.00");
-                        }
                     }else if(evento=="Dolor y Paliativos en Oncología"){
-                        if(mes=="Octubre"){
+                        if(mes=="Enero" || mes=="Febrero" || mes=="Marzo" || mes=="Abril" || mes=="MAyo" || mes=="Junio" || mes=="Julio" || mes=="Agosto" || mes=="Septiembre" || mes=="Octubre"){
                             $("#precio").val("$2,500.00");
-                        }else if(mes=="Noviembre"){
+                        }else if(mes=="Noviembre" || mes=="Diciembre"){
                             $("#precio").val("$3,000.00");
-                        }
-                    }else if(evento=="Oncología al limite VI"){
-                        if(mes=="Octubre"){
-                            $("#precio").val("$2,500.00");
-                        }else if(mes=="Noviembre"){
-                            $("#precio").val("$3,000.00");
-                        }
-                    }else if(evento=="Práctica Integrada en Falla Intestinal"){
-                        if($("#titulo").val()=="Dr." || $("#titulo").val()=="Dra."){
-                            if(mes=="Octubre"){
-                                $("#precio").val("$1,000.00");
-                            }else if(mes=="Noviembre"){
-                                $("#precio").val("$1,000.00");
-                            }
-                        }else if($("#titulo").val()=="Enfermero" || $("#titulo").val()=="Enfermera" || $("#titulo").val()=="Residente"){
-                            if(mes=="Octubre"){
-                                $("#precio").val("$500.00");
-                            }else if(mes=="Noviembre"){
-                                $("#precio").val("$500.00");
-                            }
                         }
                     }
 			    });

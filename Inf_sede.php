@@ -52,8 +52,14 @@ function MM_swapImage() { //v3.0
             <div id="tx_cont_nav"><a href="Index.php">Inicio</a> / Información general / Hotel Sede</div>
         </div>
         
-                  <p><img src="img/SEDE.jpg" width="730" height="200" /></p>
+                  <!--<p><img src= width="730" height="200" /></p>-->
                 <div id="cont_home_tx">
+					<p>Hotel Fiesta Americana Guadalajara </p>
+					<p>Av. Aurelio Aceves No. 225, Vallarta Poniente.<br />
+				    C.P. 44110 Guadalajara, Jal.</p>
+				  <p><br />
+</p>
+					
                   <p class="tx_link">&nbsp;</p>
 <br />
 <p>&nbsp;                  </p>

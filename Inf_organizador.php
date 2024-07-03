@@ -55,12 +55,15 @@ function MM_swapImage() { //v3.0
                   Jefatura de Capacitación , Enseñanza e Investigación GESJ.</p>
                  
                      <p><strong>Dr. Gilberto Morgan Villela</strong><br />
-                 Responsable de la Unidad de Oncología Hospital San Javier.                  </p>
-                  <p>
-                    <strong>Dr. Oscar Armando Melhado Orellana</strong><br />
-                    Cirujano Oncólogo de la  Unidad de Oncología Hospital San Javier.<br/>
-                    <br/>
-                  </p>
+                     Director de Oncología al Límite, Oncólogo Clínico Hospital San Javier.                  </p>
+                  <p><strong>Dr. Jorge Jiménez Tornero </strong><br />
+				  Director de Clinica de Dolor y Paliativos del Hospital San Javier<strong> </strong></p>
+					<p><strong>Enf. Esp. Ana Luisa Rosas Pérez</strong><br/>
+						Jefe de Enfermería de la Unidad de Oncología del Hospital San Javier<strong> </strong></p>
+				  </p>
+					<p><br/>
+					  <br/>
+				  </p>
                   
                   
                   <p>&nbsp;                  </p>

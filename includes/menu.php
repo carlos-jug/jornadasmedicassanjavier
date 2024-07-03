@@ -23,7 +23,7 @@
 			<a style="cursor:pointer;">REGISTRO </a>
 			<ul>
 				<li>
-					<a href="Reg_costos.php">COSTOS </a>
+					<a href="Reg_costos2019.php">COSTOS </a>
 				</li>
 				<!--<li><a href="https://jornadasmedicassanjavier.com/registro/" target="_blank"> INSCRIPCIONES </a></li>-->
 				<!-- <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScf-RVO_wEWJoQprMuyKr7UbSNjRI7mnlBQuDH7jhBEhr4TAw/viewform" target="_blank"> INSCRIPCIONES </a></li> -->
@@ -43,11 +43,16 @@
 			<a href="#">PROGRAMA ACADÉMICO</a>
 			<ul>
 				<li>
-					<a href="Pro_oncologia.php">CONFERENCIAS Y TALLERES</a>
+			  <a href="Pro_oncologia.php">ONCOLOGÍA AL LÍMITE VII</a> 
 				</li>
-				<li>
-					<a href="Poster.php">POSTER</a>
-				</li>
+			    
+				<li> <a href="../Pro_dolor-paliativos.php">DOLOR Y CUIDADOS </a>
+					</li>
+				  <li> <a href="../img/2022-radioterapia.pdf">RADIOTERAPIA</a>
+					  <li> <a href="../img/2022-enfermeria oncologica.pdf">ENFERMERIA</a>
+			  </li>
+					
+			                  
 			</ul>
 		</li>
 		<?php /*
@@ -63,9 +68,9 @@
 			 */
 		?>
 		<li>
-			<a href="Patrocinadores.php">PATROCINADORES </a>
+			<a href="patrocinadores 2019.php">PATROCINADORES </a>
 		</li>
-		<li>
+		<!-- <li>
 			<a href="#" style="cursor:pointer;">OTRAS EDICIONES</a>
 			<ul>
 				<li>
@@ -84,6 +89,9 @@
 					<a href="../pdf/HSJ_Jornadas_Medicas_2015_Oncologia.pdf">PROGRAMA 2015 </a>
 				</li>
 			</ul>
+		</li> -->
+		<li>
+			<a href="trabajos-libres-en-cartel.php">TRABAJOS EN CARTEL</a>
 		</li>
 		<li>
 			<a href="contact.php">CONTACTO </a>

@@ -47,21 +47,17 @@ function MM_swapImage() { //v3.0
 <div id="li_cont">
         	<div id="tt_cont">Registro</div>
             <div id="tx_cont_nav"><a href="index.php">Inicio</a> / <a href="#"> Registro</a> / Costos
-</div> <p><img src="img/costos-3.jpg" height="640"/></p>
+</div> <p><img src="img/costos_2020-1.jpg" width="700" height="297"/></p>
     </div>
 </div>
-
-<?php include("includes/banner_sj.html");?>
-        
+<p>&nbsp;                  </p>
+      </div>
+    </div>
+    	<?php include("includes/banner_sj.html");?>
 
 
 
 </div>
-
-
-
-
-
 
 
 <?php include("includes/pie.html");?>
