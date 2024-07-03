@@ -1,0 +1,550 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:url(img/bg_gral.jpg);
+	background-repeat:repeat-x;
+	background-color:#FFF;
+	
+}
+
+	
+
+/*MENU*/
+#cont_home_tx p {
+	text-indent:15px;
+	 }
+
+  /* el menú en si mismo */
+  .mi-menu  {
+    border-radius: 5px;
+    list-style-type: none;
+ /* si queremos centrarlo */
+    padding: 5px 0px 0px 0px;
+    /* la altura y su ancho dependerán de los textos */
+    height: 40px; 
+	text-align:right;
+    /* el color de fondo */
+	background-image:url(img/bg_menu_tringulo.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	margin-top:0px;
+  }
+
+  /* si es necesario, evitamos que Blogger de problemas con los saltos de línea cuando escribimos el HTML */
+  .mi-menu  br { display:none; }
+
+  /* cada item del menu */
+  .mi-menu  li {
+    display: block;
+    float: left; /* la lista se ve horizontal */
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+	
+	
+
+  }
+  .mi-menu li a {
+    border-left: none;
+    border-right: none;
+    color: #FFF;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 10px;
+    margin: 6px 0;
+    text-decoration: none;
+    /* animamos el cambio de color de los textos */
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+  }
+  /* eliminamos los bordes del primer y el último */
+  .mi-menu li:first-child a { border-left: none; }
+  .mi-menu li:last-child a{ border-right: none; }
+  /* efecto hover cambia el color */
+  .mi-menu li:hover > a { color: #07C75B; }
+
+  /* los submenús */
+  .mi-menu ul {
+    border-radius: 0 0 5px 5px;
+    left: 0;
+    margin: 0;
+    opacity: 0; /* no son visibles */
+    position: absolute;
+    top: 40px; /* se ubican debajo del enlace principal */
+    /* el color de fondo */
+    background: #01321F;
+    /* animamos su visibildiad */
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+  }
+  /* son visibes al poner el cursor encima */
+  .mi-menu li:hover > ul { opacity: 1; }
+
+   /* cada un ode los items de los submenús */
+  .mi-menu ul li {
+    height: 0; /* no son visibles */
+    overflow: hidden;
+    padding: 0;
+    /* animamos su visibildiad */
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+  }
+  .mi-menu li:hover > ul li {
+    height: 30px; /* los mostramos */
+    overflow: visible;
+    padding: 0;
+	text-align:left;
+  }
+  .mi-menu ul li a {
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    /* el ancho dependerá de los textos a utilizar */
+    padding: 2px 5px;
+    width: 200px;
+	font-size:14px;
+  }
+  /* el último n otiene un borde */
+  .mi-menu ul li:last-child a { border: none; }
+  
+  
+  
+  
+
+#hd_1 {
+margin:auto;
+height:50px;
+width:1000px;
+}
+
+#hd_1_tx_contador {
+color:#333;
+float:left;
+width:150px;
+margin:15px 8px 3px 3px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:left;
+}
+
+#hd_1_tx_fechador {
+color:#333;
+float:left;
+width:400px;
+margin:15px 8px 3px 3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+text-align:left;
+font-style:italic;
+}
+
+#hd_1_menu {
+float:right;
+width:410px;
+height:26px;
+text-align:right;
+margin-top:6px;
+font: Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #333;
+padding-bottom:5px;
+}
+#hd_1_menu a, a:link, a:hover{
+	color:#333;
+	text-decoration:none;
+}
+
+#hd_2_head {
+height:298px;
+width:1000px;
+margin:auto;
+background-image:url(img/Encabezado_2018.jpg);
+background-repeat:no-repeat;
+}
+
+#hd_3_head {
+height:151px;
+width:1000px;
+margin:auto;
+}
+
+#hd_3_head_a {
+height:151px;
+width:326px;
+float:left;
+background-image:url(img/hd1_2.jpg);
+background-repeat:no-repeat;
+background-position:left;
+}
+
+#hd_3_head_b{
+height:151px;
+width:674px;
+float:right;
+}
+
+#hd_4_menu {
+height:47px;
+width:1010px;
+margin:auto;
+background-color:#008955;
+color:#FFF;
+}
+
+#body_1 {
+width:100%;
+background-color:#EDF1F6;
+}
+
+#body_sombra {
+width:1000px;
+margin: auto;
+background-color:#FFFFFF;
+/*background-image:url(img/bg_shadow_cont.jpg);*/
+height:8px;
+margin-top:15px;
+}
+
+#cont_body_left {
+width:830px;
+float:left;
+}
+#cont_body_left_const {
+background-image:url(jpg/Profes_construcci%C3%B3n%20copy.jpg);
+width:830px;
+float:left;
+}
+
+#cont_body_right{
+width:164px;
+float:left;
+margin: 20px 3px 3px 3px;
+}
+
+#body_2 {
+width:1000px;
+overflow:auto;
+background-image: url(img/bg_line_cont.gif);
+background-repeat:repeat-y;
+margin: auto;
+background-color:#FFFFFF;
+}
+
+#foot_1 {
+width:100%;
+background-image:url(img/bg_foot_2.jpg);
+background-repeat:repeat-x;
+height:58px;
+}
+
+#foot_2 {
+width:1000px;
+background-image:url(img/bg_foot_2.jpg);
+background-repeat:repeat-x;
+height:58px;
+margin:auto;
+}
+
+#foot_tx {
+width:475px;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#FFFFFF;
+text-align:left;
+margin-left:12px;
+margin-top:5px;
+}
+
+#foot_txsmall {
+width:475px;
+float:rigth;
+font-family:Arial, Helvetica, sans-serif;
+font-size:09px;
+color:#FFFFFF;
+text-align:left;
+margin-left:12px;
+margin-top:5px;
+}
+
+#foot_banner {
+width:475px;
+height:112px;
+float:right;
+}
+
+
+#li_cont {
+width:750px;
+height:50px;
+float: left;
+background-image:url(img/ln_tictic_blue.gif);
+background-repeat:repeat-x;
+margin:20px 27px  27px  27px;
+}
+
+#tt_cont {
+width:700px;
+height:30px;
+float:left;
+font-family: Arial, Helvetica, sans-serif;
+color:#008955;
+font-weight:bold;
+font-size:30px;
+margin: 0px 0px 0px 3px;
+}
+
+
+#tx_cont_nav {
+width:700px;
+height:15px;
+float:left;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:#575752;
+font-size:12px;
+margin: 7px 0px 0px 5px;
+}
+
+#tx_cont_nav a{color:#617184; text-decoration:none;}
+#tx_cont_nav a:link{color:#617184; text-decoration:none;}
+#tx_cont_nav a:hover{color:#617184; text-decoration: underline;}
+
+
+#cont_home_tx {
+width:730px;
+float:left;
+font-family: Arial, Helvetica, sans-serif;
+color:#000;
+font-size:14px;
+margin: 7px 0px 0px 45px;
+text-align:justify;
+}
+#cont_home_tx a, a:link, a:hover, a:visited {
+font-family: Arial, Helvetica, sans-serif;
+color: #008955;
+text-decoration: none;
+}
+
+#firma_cont {
+width:280px;
+float:left;
+margin: 40px 50px 20px 0px;
+text-align: left;
+}
+
+#firma_foto {
+width:55px;
+float:left;
+height:68px;
+}
+
+#firma_tx {
+color:#666;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+margin:0px 0px 4px 10px;
+float:left;
+width:250px;
+}
+
+
+.td_tb_cont_1 {
+padding:2px 2px 2px 4px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color: #333;
+text-align:left;
+background-color:#EAEDF0;
+background-image: url(img/tb_td_bg_1.jpg);
+background-repeat:repeat-y;
+background-position: right;
+border-bottom:1px solid #F7F8F9;
+vertical-align:top;
+vertical-align:top;
+}
+
+.td_tt_cont_1 {
+padding:2px 2px 2px 4px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#FFFFFF;
+text-align:left;
+background-color: #008955;
+/*background-color: #CED1B2;*/
+}
+
+.td_tb_cont_2 {
+padding:2px 2px 2px 4px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333;
+text-align:left;
+vertical-align:top;
+background-color:#F4F4F4;
+background-image: url(img/tb_td_bg_2.jpg);
+background-repeat:repeat-y;
+background-position: right;
+border-bottom:1px solid #FCFCFC;
+}
+
+.td_tt_cont_2 {
+padding:2px 2px 2px 4px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#FFFFFF;
+text-align:left;
+background-color:#586F89;
+background-image:url(img/tb_bg_tt.jpg);
+background-repeat:repeat-y;
+background-position: right;
+}
+
+.td_bg_cierre {
+background-color:#FFFFFF;
+background-image:url(img/tb_bg_sombra.jpg);
+background-repeat:repeat-x;
+background-position:top;
+height:12px;
+}
+
+.td_foto {
+/*padding:2px 2px 2px 2px;*/
+color:#142B48;
+background-color:#FFF;
+/*border-bottom:1px solid #EAEDF0;*/
+vertical-align:top;
+text-align:right;
+}
+
+.tx_link {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#008955;
+font-weight:bold;
+}
+
+.tx_link a{color:#008955; text-decoration:none;}
+.tx_link a:link{color:#008955; text-decoration:none;}
+.tx_link a:hover{color:#005032; text-decoration:underline;}
+
+.info_lateral  {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:center;
+	color:#333;
+}
+
+.tx_tt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	color:#008955;
+	
+}
+
+.tx_subtt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color: #333;
+	
+}
+
+
+.table_prog {
+	width:100%;
+	border:0px;
+}
+
+.td_prog_tt {
+	background-color:#008955;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color: #FFF;
+}
+
+.td_prog_stt {
+	text-align:left;
+	border-bottom:#008955 2px solid;
+	padding:7px 0px 4px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:19px;
+	font-weight:bold;
+	color:#008955;
+}
+
+.td_prog_hr {
+	background-color:#E0E8DD;
+	text-align:center;
+	vertical-align:central;
+	width:20%;
+}
+
+.td_prog_tx {
+	text-align:left;
+	vertical-align:central;
+	border-bottom:#E0E8DD 2px solid;
+	padding-left:5px;
+}
+
+#lg_mod_h {
+	height:50px;
+	margin-bottom:5px;
+	text-align:justify;
+}
+
+#lg_h {
+	width:28px;
+	height:37px;
+	float:left;
+	margin:0px 10px 0px 10px;
+	background-color:#000;
+}
+
+.Galeria {
+	width:630px;
+	margin:0 50px;
+	display:inline-block;
+}
+.Galeria img {
+	width:300px;
+	height:169px;
+	margin:0 10px 10px 0;
+	display:inline;
+	float:left
+}
+
+#Logos {
+	width:164px;
+	font-size:9px;
+	color:#333;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#Logos img {
+	max-height:75px;
+	max-width:100%;
+	border:none;
+	margin:5px 0;
+}
