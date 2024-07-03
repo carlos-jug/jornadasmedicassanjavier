@@ -30,7 +30,7 @@ body {
     height: 40px; 
 	text-align:right;
     /* el color de fondo */
-	background-image:url(img/bg_menu_tringulo.png);
+	/*background-image:url(img/bg_menu_tringulo.png);*/
 	background-repeat:no-repeat;
 	background-position:bottom;
 	margin-top:0px;
@@ -177,7 +177,7 @@ padding-bottom:5px;
 height:298px;
 width:1000px;
 margin:auto;
-background-image:url(img/Encabezado_2018.jpg);
+background-image:url(img/jpg/Encabezado2022.jpg);	
 background-repeat:no-repeat;
 }
 
