@@ -1,6 +1,8 @@
 <?php
 // Datos de la conexión a la base de datos
-define("DB_HOST", '204.93.216.11');
+//define("DB_HOST", '204.93.216.11');
+
+define("DB_HOST", '192.250.231.36');
 define("DB_USER", 'chamery0_testusr');
 define("DB_PASSWD", 'pass@123');
 define("DB_DATABASE", 'chamery0_jornadas2');
