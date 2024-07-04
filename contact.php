@@ -33,7 +33,8 @@ $mail = new PHPMailer();
 
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
-$mail->Host = 'ssl://204.93.216.68';
+//$mail->Host = 'ssl://204.93.216.68';
+$mail->Host = 'ssl://192.250.231.36';
 $mail->Port = '465';
 $mail->Username = 'noresponder@jornadasmedicassanjavier.com';
 $mail->Password = 'N0R1sponder';
